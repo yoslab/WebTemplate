@@ -4,13 +4,14 @@
     - 右のDownload ZIPを選択し，ダウンロードしてください．
 
 ## どれを利用する？
-#### HTMLの基本テンプレートがほしい
+#### HTMLの基本テンプレートがほしい！
     index.php
     css/style.css
     js/main.js
-#### Ajax通信を実行したい
-    js/test_ajax.js
-    js/get_ajax.js
+#### Ajax通信を実行したい！
+    examples/ajax
+#### MySQLデータベースを利用したい！
+    examples/mysql
 
 ---
 ## 参考先
