@@ -6,8 +6,8 @@
 ## どれを利用する？
 #### ajax
     Ajax通信を実行する
-<!-- #### basic_auth -->
-    <!-- ログイン/パスワードformを設置する -->
+#### basic_auth
+    ログイン・パスワードFormを設置する
 #### mysql
     MySQLデータベースを利用する
 #### simple_html
