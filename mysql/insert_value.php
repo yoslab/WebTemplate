@@ -11,8 +11,9 @@ if(isset($_POST)) {
         }
     }
 } else {
-    echo "post error";
+    echo "post error\n";
 }
+
 
 
 // MySQLに接続する (ホスト名，ユーザ名，パスワード，データベース名の順)

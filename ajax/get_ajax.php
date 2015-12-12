@@ -4,10 +4,15 @@
 // JSON形式で出力すればOK
 
 // 外部変数の取得
-if(isset($_POST)){
-    if(isset($_POST["foo"])) $foo = $_POST["foo"];
-    if(isset($_POST["bar"])) $bar = $_POST["bar"];
+if(isset($_POST)) {
+    foreach($_POST as $key => $val) {
+        $$key = htmlspecialchars($val);
+    }
+} else {
+    echo "post error\n";
 }
+
+// $keyが使用できる
 
 // 色々実行
 $foo++;
