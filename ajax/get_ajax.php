@@ -6,7 +6,8 @@
 // 外部変数の取得
 if(isset($_POST)) {
     foreach($_POST as $key => $val) {
-        $$key = htmlspecialchars($val);
+        if(ctype_digit($key[0])) $key[0] = "_";
+        $$key = htmlspecialchars($val, ENT_NOQUOTES, 'UTF-8');
     }
 } else {
     echo "post error\n";
