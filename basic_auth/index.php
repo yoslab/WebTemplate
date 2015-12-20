@@ -1,8 +1,8 @@
 <?php
+    require("header.php");
     session_start();  // セッションの開始
 ?>
-<html>
-<head><title>ログインしてください</title></head>
+</head>
 <body>
 
 <form action="login.php" method="POST">

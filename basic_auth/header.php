@@ -1,3 +1,4 @@
+<!-- ヘッダーテンプレート．requireで読み込んだ後，</head>で閉じることに注意 -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -10,8 +11,8 @@
 <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-<title>ページタイトル</title>
-<meta name="description" content="ページの説明">
+<title>Basic Auth</title>
+<meta name="description" content="新規プロフィール/ログイン機能の例">
 <meta name="author" content="Sakusha">
 <!-- ファビコン -->
 <link rel="shortcut icon" href="">
@@ -24,26 +25,3 @@
 <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/smokejs/2.2.4/css/smoke.min.css"> -->
 <!-- Custom CSS -->
 <link rel="stylesheet" href="./css/style.css">
-
-</head>
-<body>
-
-<!-- ここからレイアウト -->
-
-<div id="main">
-    コンテンツ
-</div>
-
-<!-- ここまでレイアウト -->
-
-<!-- Jquery, Bootstrap -->
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<!-- <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script> -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<!-- 任意の拡張的プラグイン -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/smokejs/2.2.4/js/smoke.min.js"></script>
-<!-- Custom JS -->
-<script src="./js/main.js"></script>
-
-</body>
-</html>
