@@ -13,11 +13,11 @@
 ## 紹介
 
 1. **simple**
-    - HTML/CSS/JavaScriptを用いた基本テンプレート
+    - HTML/CSS/JavaScriptを用いた基本テンプレート．デモ
 1. bootstrap
-    - Bootstrapを用いた基本テンプレート
+    - Bootstrapを用いた基本テンプレート．デモ
 1. bootstrap-grid
-    - Bootstrapを用いたGridを利用したテンプレート
+    - Bootstrapを用いたGridを利用したテンプレート．デモ
 1. ajax
     - Ajax通信を実行する
 1. basic_auth
