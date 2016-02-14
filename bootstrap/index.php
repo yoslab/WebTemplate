@@ -16,6 +16,10 @@
   <link rel="shortcut icon" href="">
   <!-- Normalize -->
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <!-- Bootstrap v4: http://getbootstrap.com/css/ -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+  <!-- Font Awesome: https://fortawesome.github.io/Font-Awesome/icons/ -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- 任意の拡張的プラグイン -->
   
   <!-- Custom CSS -->
@@ -29,6 +33,12 @@
   </div>
   <!-- ************ ここまでレイアウト ************ -->
 
+  <!-- Jquery, Bootstrap -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> -->
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"
+    integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7"
+    crossorigin="anonymous"></script>
   <!-- 任意の拡張的プラグイン -->
 
   <!-- Custom JS -->

@@ -14,6 +14,8 @@
 
 1. **simple**
     - HTML/CSS/JavaScriptを用いた基本テンプレート
+1. bootstrap
+    - bootstrapを用いた基本テンプレート
 1. ajax
     - Ajax通信を実行する
 1. basic_auth
