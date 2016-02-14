@@ -5,7 +5,9 @@
 - Q. ダウンロードするには？
   - 右のDownload ZIPを選択し，ダウンロードしてください．
   - gitコマンドが使用できる場合は，以下を叩きましょう．
+
         git clone https://github.com/yoslab/WebTemplate.git
+
 ---
 
 ## 紹介
@@ -18,7 +20,7 @@
     - ログイン・パスワードFormを設置する
 1. mysql
     - MySQLデータベースを利用する
-
+sz
 ---
 ## 参考
 - [体系的に学ぶ安全なWebアプリケーションの作り方](http://www.amazon.co.jp/dp/4797361190)
