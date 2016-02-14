@@ -6,7 +6,7 @@
   - 右のDownload ZIPを選択し，ダウンロードしてください．
   - gitコマンドが使用できる場合は，以下を叩きましょう．
 
-        git clone https://github.com/yoslab/WebTemplate.git
+`git clone https://github.com/yoslab/WebTemplate.git`
 
 ---
 
