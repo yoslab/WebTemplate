@@ -13,11 +13,11 @@
 ## 紹介
 
 1. **simple**
-    - HTML/CSS/JavaScriptを用いた基本テンプレート．デモ
+    - HTML/CSS/JavaScriptを用いた基本テンプレート．[デモ](http://yoslab.net/template/WebTemplate/simple/)
 1. bootstrap
-    - Bootstrapを用いた基本テンプレート．デモ
+    - Bootstrapを用いた基本テンプレート．[デモ](http://yoslab.net/template/WebTemplate/bootstrap/)
 1. bootstrap-grid
-    - Bootstrapを用いたGridを利用したテンプレート．デモ
+    - Bootstrapを用いたGridを利用したテンプレート．[デモ](http://yoslab.net/template/WebTemplate/bootstrap-grid/)
 1. ajax
     - Ajax通信を実行する
 1. basic_auth
