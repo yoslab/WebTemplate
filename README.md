@@ -14,8 +14,8 @@
 
 1. **simple**
     - HTML/CSS/JavaScriptを用いた基本テンプレート．[デモ](http://yoslab.net/template/WebTemplate/simple/)
-1. bootstrap
-    - Bootstrapを用いた基本テンプレート．[デモ](http://yoslab.net/template/WebTemplate/bootstrap/)
+1. bootstrap-basic
+    - Bootstrapを用いた基本テンプレート．[デモ](http://yoslab.net/template/WebTemplate/bootstrap-basic/)
 1. bootstrap-grid
     - Bootstrapを用いたGridを利用したテンプレート．[デモ](http://yoslab.net/template/WebTemplate/bootstrap-grid/)
 1. ajax
@@ -29,5 +29,3 @@
 ## 参考
 - [体系的に学ぶ安全なWebアプリケーションの作り方](http://www.amazon.co.jp/dp/4797361190)
 - [HTML5でWebページを作成する時のベースになるシンプルなコードで書かれたテンプレート](http://coliss.com/articles/build-websites/operation/work/html5-template-by-sixrevisions.html)
-
-Test21
