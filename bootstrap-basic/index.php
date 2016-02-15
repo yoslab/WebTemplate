@@ -14,8 +14,6 @@
   <meta name="author" content="Sakusha">
   <!-- ファビコン -->
   <link rel="shortcut icon" href="">
-  <!-- Normalize -->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
   <!-- Bootstrap v4: http://getbootstrap.com/css/ -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
   <!-- Font Awesome: https://fortawesome.github.io/Font-Awesome/icons/ -->
@@ -29,7 +27,10 @@
 
   <!-- ************ ここからレイアウト ************ -->
   <div id="main">
-    コンテンツ
+    <div class="page-header">
+      <h1>Bootstrap Basic Examples</h1>
+      <p class="lead">こちらを参考にしてください．<a href="http://getbootstrap.com/css/ ">http://getbootstrap.com/css/</a></p>
+    </div>
   </div>
   <!-- ************ ここまでレイアウト ************ -->
 
