@@ -17,7 +17,7 @@
 1. bootstrap-basic
     - Bootstrapを用いた基本テンプレート．[デモ](http://yoslab.net/template/WebTemplate/bootstrap-basic/)
 1. bootstrap-layout
-    - Bootstrapを用いた様々なテンプレート．[デモ](http://yoslab.net/template/WebTemplate/bootstrap-layout/)
+    - Bootstrapを用いた要素紹介テンプレート．[デモ](http://yoslab.net/template/WebTemplate/bootstrap-layout/)
 1. ajax
     - Ajax通信を実行する
 1. basic_auth
