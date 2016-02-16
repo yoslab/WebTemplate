@@ -26,7 +26,7 @@
 <body>
 
   <!-- ************ ここからレイアウト ************ -->
-  <div id="main">
+  <div class="container">
     <div class="page-header">
       <h1>Bootstrap Basic Examples</h1>
       <p class="lead">こちらを参考にしてください．<a href="http://v4-alpha.getbootstrap.com/getting-started/introduction/">http://v4-alpha.getbootstrap.com/getting-started/introduction/</a></p>
