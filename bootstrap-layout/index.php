@@ -26,7 +26,7 @@
 <body>
 
   <!-- ************ ここからレイアウト ************ -->
-  <div id="main">
+  <div class="container">
 
     <div class="page-header">
       <h1>Bootstrap Layout Examples</h1>
