@@ -47,20 +47,20 @@
 
 
 <script>
-    
+
     /* Ajax Template ここから *********************************************/
-    
+
     // 変数の設定
     var foo = 2;
     var bar = "yos";
-    
+
     // ボタンにクリックリスナを付加する
     $("#testBtn").bind('click', function() {
         testAjax();
     });
-    
+
     function testAjax() {
-        
+
         // Ajax通信の実行
         $.ajax({
             url : './get_ajax.php',
@@ -73,19 +73,19 @@
             console.log(res);
             // 書き換える
             $("#resultArea").html("成功: "+res.fuge);
-            
+
         }).fail(function(err){
             // 通信失敗
             console.log("error: " + err);
             // 書き換える
             $("#resultArea").html("失敗: "+err);
         });
-        
+
     }
-    
+
     /* Ajax Template ここまで *********************************************/
-    
-    
+
+
 </script>
 </body>
 </html>

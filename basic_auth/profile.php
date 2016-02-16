@@ -4,7 +4,7 @@
     if ($_id == '') {
       die('ログインしてください');
     }
-    
+
     // HTML上に出力させたい場合は必ずhtmlspecialcharsしたものを使用する
     $id = htmlspecialchars($_id, ENT_NOQUOTES, 'UTF-8');
 ?>
