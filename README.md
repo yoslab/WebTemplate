@@ -12,12 +12,12 @@
 
 ## 紹介
 
-1. **simple**
-    - HTML/CSS/JavaScriptを用いた基本テンプレート．[デモ](http://yoslab.net/template/WebTemplate/simple/)
-1. bootstrap-basic
-    - Bootstrapを用いた基本テンプレート．[デモ](http://yoslab.net/template/WebTemplate/bootstrap-basic/)
-1. bootstrap-layout
-    - Bootstrapを用いた要素紹介テンプレート．[デモ](http://yoslab.net/template/WebTemplate/bootstrap-layout/)
+1. **simple**（[デモ](http://yoslab.net/template/WebTemplate/simple/)）
+    - HTML/CSS/JavaScriptを用いた基本テンプレート
+1. bootstrap-basic（[デモ](http://yoslab.net/template/WebTemplate/bootstrap-basic/)）
+    - [Bootstrap v4](http://v4-alpha.getbootstrap.com/)を用いた基本テンプレート
+1. bootstrap-layout（[デモ](http://yoslab.net/template/WebTemplate/bootstrap-layout/)）
+    - [Bootstrap v4](http://v4-alpha.getbootstrap.com/)を用いた要素紹介テンプレート
 1. ajax
     - Ajax通信を実行する
 1. basic_auth
