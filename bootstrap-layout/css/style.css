@@ -1,24 +1,23 @@
-
 /* ここから CSS初期化テンプレート */
+
 * {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-         -o-box-sizing: border-box;
-        -ms-box-sizing: border-box;
-            box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
 html {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
+
 /* ここまで CSS初期化テンプレート */
 
+
 /* ここから Bootstrap基本テンプレート */
-body {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
+
 h3 {
   margin-top: 2rem;
 }
@@ -37,4 +36,13 @@ hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
 /* ここまで Bootstrap基本テンプレート */
+
+body {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 12pt;
+  /*color: #111;*/
+  /*background-color: #eee;*/
+}
