@@ -45,7 +45,7 @@
   </nav>
   <div class="container">
     <div class="page-header">
-      <h1>Bootstrap Basic Examples</h1>
+      <h1><i class="fa fa-home"></i> Bootstrap Basic Examples</h1>
       <p class="lead">こちらを参考にしてください．<a href="http://v4-alpha.getbootstrap.com/getting-started/introduction/">http://v4-alpha.getbootstrap.com/getting-started/introduction/</a></p>
       <p class="lead">テンプレートはここ．<a href="http://v4-alpha.getbootstrap.com/examples/">http://v4-alpha.getbootstrap.com/examples/</a></p>
     </div>
