@@ -16,7 +16,6 @@ $DEF_TYPES = [PDO::PARAM_STR, PDO::PARAM_INT, PDO::PARAM_STR];
 // POSTデータを受け取る (value0, value1, ==> $array[0], $array[1])
 if(isset($_POST)) {
     foreach($_POST as $key => $val) {
-
         $num = substr($key, 6); // 数字を切り取る
         if(ctype_digit($num)) {
             $n = intval($num);

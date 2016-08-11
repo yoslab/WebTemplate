@@ -4,7 +4,7 @@
 
 // 以下，指定
 $dsn = 'mysql:dbname=testdb;host=localhost;charset=utf8';
-$username = 'tanioka';
+$username = 'user';
 $password = 'pass';
 $driver_options = array(
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, // エラー報告
