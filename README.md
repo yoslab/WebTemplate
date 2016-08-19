@@ -12,9 +12,9 @@
 
 ## 紹介
 
-1. **simple**（[デモ](http://yoslab.net/template/WebTemplate/simple/)）
+1. **simple**（[デモ](http://yoslab.github.io/WebTemplate/simple/)）
     - HTML/CSS/JavaScriptを用いた基本テンプレート
-1. **bootstrap-basic**（[デモ](http://yoslab.net/template/WebTemplate/bootstrap-basic/)）
+1. **bootstrap-basic**（[デモ](http://yoslab.github.io/WebTemplate/bootstrap-basic/)）
     - [Bootstrap v4](http://v4-alpha.getbootstrap.com/)を用いた基本テンプレート
     - 他の例は[Examples](http://v4-alpha.getbootstrap.com/examples/)を見るように
 1. ajax
