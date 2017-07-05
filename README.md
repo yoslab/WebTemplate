@@ -12,7 +12,7 @@
 
 ## 紹介
 
-1. **simple**（[デモ](http://yoslab.github.io/WebTemplate/examples/ex001-simple)）
+1. **simple**（[デモ](http://yoslab.github.io/WebTemplate/examples/ex001--simple)）
     - HTML5/CSS/JavaScriptを用いた最小限のテンプレートです．
 1. **bootstrap-basic**（[デモ](http://yoslab.github.io/WebTemplate/examples/ex002--bootstrap-basic/)）
     - Bootstrap 4 + Font Awesome を用いたテンプレートです．
