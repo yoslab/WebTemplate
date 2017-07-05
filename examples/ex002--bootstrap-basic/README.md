@@ -1,8 +1,6 @@
 
-## これは何？
-
-- **[simple](../simple)** + Bootstrap 4 + Font Awesome のテンプレートです．
-
+# **bootstrap-basic**（[デモ](http://yoslab.github.io/WebTemplate/examples/ex002--bootstrap-basic/)）
+Bootstrap 4 + Font Awesome を用いたテンプレートです．
 
 ---
 ## Bootstrapって？
@@ -31,7 +29,7 @@
   ## Font Awesomeって？
   - 使い勝手のよいオープンソースのフォントアイコン集です．
     - <i class="fa fa-phone"></i><i class="fa fa-cubes"></i><i class="fa fa-twitter"></i><i class="fa fa-facebook"></i><i class="fa fa-arrow-down"></i><i class="fa fa-arrow-right"></i><i class="fa fa-download"></i><i class="fa fa-globe"></i><i class="fa fa-pencil"></i><i class="fa fa-star"></i><i class="fa fa-heart"></i><i class="fa fa-music"></i><i class="fa fa-picture-o"></i> …
-    - v4.5.0は605種類のアイコンが使用できます．
+    - v4.7.0は675種類のアイコンが使用できます．
 
 
 
@@ -44,4 +42,3 @@
   - [Icons](http://fontawesome.io/icons/)
   - [Examples](http://fontawesome.io/examples/)
   - [Lisence](http://fontawesome.io/license/)
-- [Font Awesome v4.5.0 Cheat Sheet](http://fontawesome.bootstrapcheatsheets.com/) （便利）

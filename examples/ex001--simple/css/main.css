@@ -1,5 +1,4 @@
 /* ここから CSS初期化テンプレート */
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -12,5 +11,4 @@ html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-
 /* ここまで CSS初期化テンプレート */
