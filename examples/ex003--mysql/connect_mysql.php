@@ -19,7 +19,7 @@ try {
 }
 
 
-// $_GET を安全に取得する
+// $_GET を安全に取得する関数
 function getParam($key) {
     $val = isset($_GET[$key]) ? $_GET[$key] : '';
     if(!mb_check_encoding($val, 'Shift_JIS')) {
@@ -31,7 +31,7 @@ function getParam($key) {
     }
     return $val;
 }
-// $_GET やDBから取り出したものを安全に出力する
+// $_GET やDBから取り出したものを安全に出力する関数
 function h($str) {
     return htmlspecialchars($str, ENT_QUOTES, 'UTF-8');
 }

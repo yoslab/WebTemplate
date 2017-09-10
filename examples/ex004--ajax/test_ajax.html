@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Ajax Example</title>
+  <meta name="description" content="Description">
+  <meta name="author" content="Yoslab">
+  <!-- Icon -->
+  <!-- <link rel="apple-touch-icon" href="***.png"> -->
+  <!-- CSS -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js">
+</head>
+<body>
+  <!--[if lt IE 9]>
+    <p class="browerupgrade">IE9未満は非対応です．</p>
+  <![endif]-->
+  <!-- ************ ここからレイアウト ************ -->
+  <div id="main" style="margin: 2rem;">
+      <input type="button" id="testBtn" value="Ajax Test">
+      <h5>ボタンを押すとAjax通信でDOM操作を実行します</h5>
+      <p id="resultArea"></p>
+  </div>
+  <!-- ************ ここまでレイアウト ************ -->
+  <!-- JavaScript -->
+  <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script>
+  /* Ajax Template ここから *********************************************/
+
+  // 変数の設定
+  var foo = 2;
+  var bar = "yos";
+
+  // ボタンにクリックリスナを付加する
+  $("#testBtn").bind('click', function() {
+    testAjax();
+  });
+
+  function testAjax() {
+    // Ajax通信の実行
+    $.ajax({
+      url : './post/get_text.php',
+      type: 'POST',
+      dataType: 'json',
+      data: { "foo": foo, "bar":bar },
+      async: true
+    }).done(function(res) {
+      // 通信成功．resはjsonDecode済み
+      console.log(res);
+      // 書き換える
+      $("#resultArea").html("成功: " + res.time);
+    }).fail(function(err) {
+      // 通信失敗
+      console.log("error: " + err);
+      // 書き換える
+      $("#resultArea").html("失敗: " + err);
+    });
+  }
+
+  /* Ajax Template ここまで *********************************************/
+  </script>
+</body>
+</html>
